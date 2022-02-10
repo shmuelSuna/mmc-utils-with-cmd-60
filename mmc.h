@@ -42,6 +42,14 @@
 					      [0] Identify Write Blocks for
 					      Erase (or TRIM Enable)  R1b */
 /*
+* MMC manufacturer specific command definitions
+*/
+#define MMC_SEND_MANUFACTURER_1		60
+#define MMC_SEND_MANUFACTURER_2		61
+#define MMC_SEND_MANUFACTURER_3		62
+#define MMC_SEND_MANUFACTURER_4		63
+
+/*
  * EXT_CSD fields
  */
 #define EXT_CSD_S_CMD_SET		504
